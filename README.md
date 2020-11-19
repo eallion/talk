@@ -19,3 +19,7 @@
 
 虽然项目只用于单用户，但其实扩展成多用户亦无需太多改动。NoSQL添加一个集合用于保存微信用户的`open_id`，内容集合也添加`open_id`用于表示不同用户发布的内容，云函数插入数据时添加`open_id`，而前端无需多说，提取内容时加上where判断即可。
 
+### 新增 by eallion
+- 新增发布来源显示，目前只显示微信公众号
+- 整合至 Hugo hello-frend theme [bb.html](https://github.com/eallion/eallion.com/blob/main/themes/hello-friend/layouts/_default/bb.html) Live Demo：[大大的小蜗牛-嘀咕](https://eallion.com/talk)
+- 原作者完整云函数教程 [4f33627a9407424a2de2341169cdeecb4dcf8eb3](https://github.com/eallion/talk/blob/4f33627a9407424a2de2341169cdeecb4dcf8eb3/README.md)
