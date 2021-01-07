@@ -1,0 +1,5 @@
+functions/vx/node_modules
+functions/talks-api/node_modules
+functions/talks-weixin/node_modules
+
+cloudbaserc.json
